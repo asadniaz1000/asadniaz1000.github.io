@@ -1,0 +1,130 @@
+/*
+Colors 
+https://coolors.co/2e3532-7e9181-c7cedb-a0aab2-94849b
+https://coolors.co/0fa3b1-b5e2fa-f9f7f3-eddea4-f7a072 (in use)
+*/
+
+html body {
+  font-family: "Open Sans", sans-serif;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 100%; */
+  /* margin: 0px; */
+  /* padding: 0px; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Body {
+  /* background-color: #a8dadc; */
+  background-color: #F9F7F3;
+  color: #2e3532;
+}
+
+.All {
+  max-width: 960px;
+  margin: auto;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* height: 80%; */
+}
+
+.Intro,
+.Details {
+  /* margin: 20px; */
+  /* max-width: 375px; */
+  /* max-width: 50%; */
+  /* flex: auto; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* padding: 20px; */
+}
+
+.Intro {
+  /* align-items: center; */
+  text-align: center;
+  /* justify-content: center; */
+  /* flex: 1; */
+  float: left;
+  width: 25%;
+  background-color: #B5E2FA;
+  /* margin: 20px; */
+  padding: 20px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  
+}
+
+.Me-Pic {
+  border-radius: 50%;
+  vertical-align:middle;
+  padding: 20px
+}
+
+.Name {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+
+.Taglines {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.Details {
+  /* flex: 3; */
+  float: left;
+  width: 75%;
+  padding: 20px;
+  /* margin: 20px; */
+  background-color: #EDDEA4;
+}
+
+.Description {
+  /* background-color: #94849B; */
+}
+
+.Links {
+  text-align: center;
+}
+
+.Social {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.Social li {
+  margin-right: 8px;
+  display: inline;
+}
+
+.Social a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #F8A477;
+}
+
+.Social-Image {
+  vertical-align: middle;
+  width: 25px;
+}
+
+.Social a:hover {
+  background-color: #FBCBB2;
+}
+
+.Social a:visited {
+  color: inherit;
+}
+
+@media screen and (max-width: 800px) {
+  .Intro,
+  .Details {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
